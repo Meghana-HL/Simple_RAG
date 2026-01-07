@@ -14,7 +14,7 @@ from langchain_core.runnables import RunnablePassthrough
 # ----------------------------
 # Config
 # ----------------------------
-CHROMA_DIR = "chroma_db"
+CHROMA_DIR = "/tmp/chroma_db"
 COLLECTION_NAME = "rag_docs"
 TEMP_DIR = "temp_files"
 
